@@ -1,0 +1,244 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900$display=swap');
+.
+{
+margin: 0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(asd.jpg);
+background-size: cover;
+background-position: center;
+
+}
+
+header
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 80%;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center:
+}
+
+header .logo
+{
+color:(red, yellow, blue, orange);
+font-weight: 70;
+font-size: 50px;
+text-align: right;
+background: linear-gradient(90deg, #ff0000 5%, #00B053 15%, #1BAADA 30%);
+-webkit-background-clip: text;
+-webkit-text-stroke: 5px transparent;
+color: #000; 
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+header ul
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header ul li
+{
+list-style: none;
+margin-left: 20px;
+color: #fff;
+border-radius: 20px;
+}
+
+header ul li a
+{
+text-decoration: none;
+padding: 6px 15px;
+color: #fff;
+border-radius: 20px;
+}
+
+
+header ul li a:hover,
+header ul li a.active
+{
+background: #fff;
+color: #2b1055;
+}
+ 
+
+
+
+
+.sidenav {
+  height:70%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 30%;
+  left: 5;
+  down: 50%:
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+ text-align: center;
+text-color: #fff;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 20px;
+  display: block;
+  margin: 10%;
+}
+
+.sidenav a:hover {
+    color: #2b1055;
+background: #fff;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.nav {
+  height: 80%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  left: 75%;
+  down: 50%:
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+  text-color:red;
+}
+
+.nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  margin: 10%;
+  border-radius: 20px;
+  border-color:#fff;
+}
+
+.nav a:hover {
+  color: #2b1055;
+background: #fff;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.box{
+width: 300px;
+background: rgba(0,0,0,0.75);
+padding: 30px;
+text-align: center;
+float: left;
+margin: 10%;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+}
+
+.box1{
+border-radius: 50%;
+width: 100px:
+height: 100px;
+}
+
+
+.box2{
+width: 300px;
+background: rgba(0,0,0,0.75);
+padding: 30px;
+text-align: center;
+float: right;
+margin: 10%;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+}
+
+.box3{
+border-radius: 15%;
+width: 100%:
+height: 100%;
+}
+
+
+.class{
+text-align: center;
+}
+
+.class1{
+transform: rotateY(150deg);
+}
+
+.container{
+margin: 15%;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 12%;
+background-color: rgba(0,0,0,0.75);
+color: white;
+text-align: center;
+}
+
+.link{
+height: 40%;
+width:100%;
+}
+
+.blog{
+width: 450px;
+height: 500px;
+background: rgba(0,0,0,0.75);
+padding: 20px;
+text-align: center;
+margin: 30%;
+margin-top: 10%;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+}
+
+.info{
+top: 20%;
+text-align: center;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+}
+
+
+.con{
+background: rgba(0,0,0,0.75);
+width: 45%;
+height:60%;
+margin: 15%;
+text-align: center;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+}
